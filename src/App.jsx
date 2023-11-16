@@ -1,14 +1,10 @@
-import { Button } from "@mui/material"
-
+import Board from "./pages/Boards/_id"
 
 function App() {
 
   return (
     <>
-      <h1>Trello</h1>
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Board/>
     </>
   )
 }
